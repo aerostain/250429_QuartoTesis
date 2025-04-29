@@ -1,0 +1,10 @@
+# Introducción
+Hola desde Introducion:
+
+La función de densidad de probabilidad de la distribución de Dirichlet con parámetros $\alpha = (\alpha_1, \dots, \alpha_K)$ y para $x = (x_1, \dots, x_K)$ donde $x_i \ge 0$ y $\sum_{i=1}^K x_i = 1$ es:
+
+$$
+f(x_1, \dots, x_K; \alpha_1, \dots, \alpha_K) = \frac{\Gamma(\sum_{i=1}^K \alpha_i)}{\prod_{i=1}^K \Gamma(\alpha_i)} \prod_{i=1}^K x_i^{\alpha_i - 1}
+$$
+
+donde $\Gamma$ es la función Gamma.
