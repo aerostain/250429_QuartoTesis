@@ -1,0 +1,44 @@
+---
+title: "Compilador de Snippets"
+format: 
+  pdf:
+    pdf-engine: pdflatex
+    papersize: "a4"
+    documentclass: book
+    toc: false
+    lang: es-PE
+    number-sections: true
+    margin-left: "3.5cm"
+    margin-right: "2.5cm"
+    margin-top: "2.5cm"
+    margin-bottom: "2.5cm"
+---
+
+\frontmatter
+# Dedicatoria
+# Agradecimientos
+# Resumen
+# Abstract
+\tableofcontents
+\listoftables
+\listoffigures
+
+\mainmatter
+# Introducción
+# Justificación del tema
+# Objetivos
+## Objetivos Generales
+## Objetivos Específicos
+# Planteamiento del problema
+# Hipótesis
+# Estado del arte
+# Marco teórico
+# Marco metodológico
+# Resultados
+# Discusión
+# Conclusiones
+
+\backmatter
+# Referencias bibliográficas
+# Apéndices: Tablas, figuras, anexos
+# Recomendaciones
