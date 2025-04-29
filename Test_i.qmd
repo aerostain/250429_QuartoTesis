@@ -1,0 +1,94 @@
+---
+title: "Compilador de Snippets"
+format: 
+  pdf:
+    pdf-engine: pdflatex
+    papersize: "a4"
+    documentclass: book
+    toc: true
+    lang: es-PE
+    number-sections: true
+    margin-left: "3.5cm"
+    margin-right: "2.5cm"
+    margin-top: "2.5cm"
+    margin-bottom: "2.5cm"
+---
+
+# R base
+## Instalación y Configuración
+## Comandos Básicos
+```{r}
+#| eval: true
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: false
+#| code-summary: "Mostrar/Ocultar Código"
+
+# Libreria
+library(tidyverse)
+# Exploración de estructura
+mpg %>% str()
+# Regresion Lineal
+lm(displ~drv+year,mpg) %>% summary()
+```
+## Ggplot
+## Animaciones
+## Dplyr
+## Metaprogramación
+## Mapas 
+## Bash
+
+# C\# 
+## Instalación y Configuración
+## Comandos Básicos
+## Vectores y Matrices
+## Listas y Enumerables
+## LINQ
+## POO
+
+# C# + R
+## Instalación y Configuración
+## Comandos Básicos
+
+# C++
+## Instalación y Configuración
+## Comandos Básicos
+## Vectores y Matrices
+## Listas y Enumerables
+## POO
+
+# Base de Datos
+## MySql
+## PostgreSql
+## T-Sql
+
+# Blazor
+## Blazor Web Assembly
+## Blazor Server
+## Blazor Minimal Api
+## Blazor Hosted
+## Blazor + R
+
+# Ubuntu
+## Instalación
+## Comandos Básicos
+## Usuarios y Permisos
+## Administración de Discos
+## Red y Puertos
+## Administración de Servidor
+
+# Docker
+## Comandos Básicos
+
+## Nginx + Html
+
+## Nginx + Minimal Api
+### Nginx + Mininmal Api + MySql + R
+### Nginx + Mininmal Api + PostgreSql + R
+### Nginx + Mininmal Api + SqlServer + R
+
+## Nginx + Blazor Hosted
+### Nginx + Blazor Hosted + MySql + R
+### Nginx + Blazor Hosted + PostgreSql + R
+### Nginx + Blazor Hosted + SqlServer + R
